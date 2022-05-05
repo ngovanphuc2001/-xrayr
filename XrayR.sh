@@ -270,7 +270,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/Quoctai0209/xrayr/master/XrayR.sh
+    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/ngovanphuc2001/xrayr/master/XrayR.sh
     if [[ $? != 0 ]]; then
         echo ""
         echo -e "  Không tải được script xuống, vui lòng kiểm tra xem máy có thể kết nối với Github không${plain}"
@@ -367,7 +367,7 @@ show_XrayR_version() {
 
 show_usage() {
     echo ''
-    echo "------------[Tài nè]------------"
+    echo "------------[Ngô Văn Phúc]------------"
     echo "  Cách sử dụng tập lệnh quản lý XrayR: "
     echo "------------------------------------------"
     echo "  XrayR              - Hiển thị menu quản trị (nhiều chức năng hơn) "
@@ -389,7 +389,7 @@ show_usage() {
 show_menu() {
     echo -e "
     Các tập lệnh quản lý phụ trợ XrayR，không hoạt động với docker${plain}
-    ${green}--- [Tài nè] ---${plain}
+    ${green}--- [Ngô Văn Phúc] ---${plain}
     0. Thay đổi cài đặt
 ————————————————————————————————
     1. Cài đặt XrayR

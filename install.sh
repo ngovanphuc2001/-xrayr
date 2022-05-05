@@ -122,7 +122,7 @@ install_XrayR() {
         fi
     else
         last_version=$1
-        url="https://github.com/Quoctai0209/xrayrr/releases/download/${last_version}/XrayR-linux-${arch}.zip"
+        url="https://github.com/ngovanphuc2001/xrayrr/releases/download/${last_version}/XrayR-linux-${arch}.zip"
         echo -e "  Bắt đầu cài đặt XrayR v$1"
         wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip ${url}
         if [[ $? -ne 0 ]]; then

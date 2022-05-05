@@ -199,4 +199,4 @@ install_XrayR() {
 echo -e "  bắt đầu cài đặt ${plain}"
 install_base
 install_acme
-install_XrayR $1
+install_XrayR $1n
